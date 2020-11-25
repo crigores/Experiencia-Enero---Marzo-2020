@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <title>MODULO 1F</title>
+    <link rel="shortcut icon" type="image/x-ico" href="/img/URBE.ico"/>
+    <link rel='stylesheet' type='text/css' href='/css/1F.css' />
+  <script src="/socket.io/socket.io.js"></script>
+  <script type="text/javascript" src="/Reservacion/Modulo/modulo.js"></script>
+  </head>
+  <body>
+    <div class="titulo-header">
+        <h1>Módulo 1F</h1>
+    </div>
+    <div class="seccion-flex">
+        <div class="seccion-izquierda">
+            <section class="login" id="login">
+                <header >
+                    <h1 id="maquinasDisponibles">Número de máquinas disponibles</h1>
+                </header>
+                <h1 id="numero-maquinas" style="text-align: center; font-size: 40px;"><!--Magia con JS--></h1>
+            </section>
+            <section class="login" id="login">
+                <header >
+                    <h1 id="maquinasDisponibles">Última reservada</h1>
+                </header>
+                <h1 id="nombre-maquina" style="text-align: center; font-size: 40px;">Esperando máquina</h1>
+            </section>
+            
+        </div>
+        <div class="login-container">
+            <section class="login" id="login">
+                <header>
+                    <h2>Sistema de reservación</h2>
+                </header>
+                <div class="login-form">
+                    <input id="cedula" type="text" class="login-input" placeholder="Cédula" onkeypress='return event.charCode >= 48 && event.charCode <= 57 || algo2(event)' autocomplete="off" required autofocus/>
+                    <div class="submit-container">
+                        <button onclick="algo()" class="login-button" id="boton-cedula">INGRESAR</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <select id="tiempo"></select>
+	<br>
+	<div id="reservar"></div>
+    <div id="logo">
+        <img class="img-logo" src="/img/somos urbe.png">
+    </div>
+  </body>
+</html>

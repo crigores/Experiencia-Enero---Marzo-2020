@@ -1,0 +1,90 @@
+body {
+    overflow-x: hidden;
+}
+.container{
+    text-align: center;
+    margin-top: 1vh;
+    display: block;
+    margin-bottom: 5vh;
+}
+
+.logo{
+    
+    width: 10vw;
+}
+
+.form{
+    display: block;
+    margin-top: 0.2vh;
+    margin-top: 0.2vh;
+    
+}
+
+.select{  
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    font-size: 2vh;
+    
+    width: 3.5vw;
+    height: 4vh;
+
+    color: #495057;
+    
+    border: 2px solid #0690b3;
+    border-radius: 0.5vh;
+}
+
+.ingresar{
+    display: inline-block;
+    
+    text-align: center;
+    font-size: 1em;
+
+    border-radius: 0.5vh;
+    border: 2px solid #0690b3;
+    
+    width: 15vw;
+    height: 4vh;
+    margin-left:1vh;
+    margin-right: 1vh;
+}
+
+.buscar{
+    text-align: center;
+    display: inline-block;
+    color: #0690b3;
+    height: 4vh;
+    font-size: 1em;
+    padding: 0.25em 1em;
+    border: 2px solid #0690b3;
+    border-radius: 0.5vh;
+}
+
+button.buscar:hover{
+    background-color: #0690b3;
+    color: white;
+    border: 2px solid #fff;
+}
+
+.box {
+    margin-top: 50px;
+}
+
+.box > div{
+    text-align:center;
+    margin-right: 2vw;
+    width: 100%;
+    display: grid;
+    /*
+    grid-template-columns: repeat(17, 62px);
+    grid-template-rows: repeat(7, 70px);
+    grid-column-gap: 13px;
+    */
+    grid-template-columns: repeat(6, 62px);
+    grid-template-rows: repeat(6, 70px);
+    grid-column-gap: 13px;
+    justify-content: center;
+    -webkit-user-select: none;
+
+}

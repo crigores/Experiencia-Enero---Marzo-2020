@@ -1,0 +1,38 @@
+.iconos {
+    background: white;
+    padding: 10px;
+    border-radius: 9px;
+    position: relative;
+    left: 73px;
+    top: -73px;
+    text-align: left;
+    width: 120px;
+    display: none;
+    z-index: 1;
+}
+.iconos > span:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/*reservar*/
+.reservar {
+    background: white;
+    padding: 10px;
+    border-radius: 9px;
+    position: relative;
+    left: 73px;
+    top: -73px;
+    text-align: center;
+    width: 234px;
+    display: none;
+    z-index: 1;
+}
+.reservar > form > input {
+    text-align: center;
+    height: 20px;
+    outline: 0px;
+}
+.reservar > form > button {
+    color: #0690b3;
+}

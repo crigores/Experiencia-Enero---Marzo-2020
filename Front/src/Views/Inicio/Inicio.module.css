@@ -1,0 +1,110 @@
+.contenedor {
+    position: absolute;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: white;
+    width: 100vw;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    height: calc(100vh - 62px);
+}
+.header{
+    color: white;
+    background: url('./img/header.png');
+    background-size: cover;
+    height: 200px;
+}
+.title{
+    padding: 40px;
+    height: 200px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5);
+}
+.noticias {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.articulo {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    cursor: pointer;
+    background-size: cover;
+}
+.articulo:hover  > .descricion{
+    top: 0%;
+}
+.descricion {
+    display: flex;
+    background: rgba(167, 202, 255, 0.8);
+    height: 100%;
+    position: relative;
+    top: 100%;
+    font-weight: bold;
+    padding: 10px;
+    
+    transition: top 0.3s;
+
+}
+.descricion p {
+    align-self: center;
+    line-height: 1.5;
+    text-shadow: 0px 0px 2px #000;
+}
+#img1{
+    background-image: url('./img/1.jpg');
+}
+#img2{
+    background-image: url('./img/2.jpg');
+}
+#img3{
+    background-image: url('./img/3.jpg');
+}
+#img4{
+    background-image: url('./img/4.jpg');
+}
+#img5{
+    background-image: url('./img/5.jpg');
+}
+#img6{
+    background-image: url('./img/6.jpg');
+}
+
+
+
+.parallax {
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: url('./img/fondo_preparadores.jpg');
+    filter: brightness(0.6);
+}
+.divisor {
+    width: 80%;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.cumpleanos{
+  margin-top: 50px;
+  color: #000;
+}
+
+.cumpleanos img{
+    margin-top: 50px;
+   width: 80vw;
+}
+.cumpleanos h1{
+    position: relative;
+    top: 74px;
+}

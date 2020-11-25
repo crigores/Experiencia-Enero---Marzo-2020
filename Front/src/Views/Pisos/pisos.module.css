@@ -1,0 +1,125 @@
+.contenedor{
+	display: grid;
+	grid-template-columns: 250px repeat(4, 140px);
+	grid-template-rows: repeat(2, 120px);
+	grid-column-gap: 4px;
+	grid-row-gap: 80px;
+	justify-content: center;
+	margin-top: 200px;
+	-webkit-user-select: none;
+	color: white;
+}
+.contenedor div{
+	display: inline-block;
+	border: 3px solid rgb(0, 0, 0);
+
+	font-size: 50px;
+	padding-top: 16px;
+	border-radius: 10px;
+	text-align: center;
+}
+.contenedor div:hover{
+	background: rgba(255, 255, 255, 0.3);
+
+}
+.contenedor div:nth-child(6) {
+	margin-right: 68px;
+}
+.contenedor div:last-child {
+	margin-right: 68px;
+    position: relative;
+	top: -271px;
+    left: 145px;
+    padding: 2px 5px;
+	width: 35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* piso del G*/
+.contenedor2{
+	display: grid;
+	grid-template-columns: 200px repeat(2, 200px);
+	grid-template-rows: repeat(2, 120px);
+	grid-column-gap: 4px;
+	grid-row-gap: 80px;
+	justify-content: center;
+	margin-top: 200px;
+	-webkit-user-select: none;
+	color: black;
+}
+.contenedor2 div{
+	display: inline-block;
+	border: 3px solid black;
+
+	font-size: 50px;
+	padding-top: 16px;
+	border-radius: 10px;
+	text-align: center;
+
+	
+}
+.contenedor2 div:hover{
+	background: rgba(255, 255, 255, 0.3);
+
+}
+.contenedor2 div:nth-child(4) {
+	margin-right: 68px;
+	border: 0;
+    border-right: 3px solid black; 
+	border-top: 3px solid black;
+	border-radius: 0;
+	background: none;
+}
+
+.contenedor2 div:last-child {
+	margin-right: 68px;
+    position: relative;
+    top: -244px;
+    left: 408px;
+    padding: 2px 5px;
+	width: 35px !important;
+	
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* piso de otros*/
+.contenedor3{
+	display: grid;
+	grid-template-columns: 200px;
+	grid-template-rows: 120px;
+	grid-column-gap: 4px;
+	grid-row-gap: 80px;
+	justify-content: center;
+	margin-top: 200px;
+	-webkit-user-select: none;
+	color: black;
+}
+.contenedor3 div{
+	display: inline-block;
+	border: 3px solid black;
+
+	font-size: 50px;
+	padding-top: 16px;
+	border-radius: 10px;
+	text-align: center;
+
+	
+}
+.contenedor3 div:hover{
+	background: rgba(255, 255, 255, 0.3);
+}
+.contenedor3 div:last-child{
+    position: relative;
+    border-radius: 10px;
+    text-align: center;
+    top: -68px;
+    padding: 2px 5px;
+    width: 35px;
+    font-size: 20px;
+    font-weight: bold;
+
+	
+}

@@ -1,0 +1,114 @@
+body{
+	margin:0px;
+	-webkit-user-select: none;
+}
+
+.General{
+	text-align: center;
+	display: flex;
+	margin: 0px;
+	border: 0.5vh solid black;
+	height:100vh;
+	background-color: #123354;
+	box-sizing: border-box;
+}
+
+.btn {
+	height: 50px;
+	width: 100px;
+	color: #fafafa;
+	margin-top: 35px;
+	margin-bottom: 3rem;
+  	background-color: #901313;
+  	font-size: 16px;
+	border-radius: 5px;
+	border-style: none;
+	text-align: center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 16px;
+
+}
+
+.btn:hover {
+  background-color: #111213;
+  color: white;
+}
+
+
+
+.header{
+	background-color: #0278ff;
+	color: #c9d7f1;
+	font-size: 24px;
+	text-align: start;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 2rem;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+.contenedorIzquierdo{
+	display: block;
+	margin: 20% auto;
+
+}
+
+.img{
+	width: 25vw;
+	transform: perspective(600px) rotateY(0deg);
+	-webkit-animation-name: animacion;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: normal;
+}
+@keyframes animacion {
+	from {
+		transform: perspective(600px) rotateY(0deg);
+	}
+	to {
+		transform: perspective(600px) rotateY(360deg);
+	}
+  }
+
+.contenedorDerecho{
+	display: block;
+	border-left: 0.5vh solid black;
+	height: 100%;
+	width: 35vw;
+	margin-top: 0px;
+	background-color: #fff;
+}
+
+.Datos{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	margin-left: 15%;
+	padding-top:50%;
+	margin-right: 15%;
+	border: 1px black none;
+}
+
+.etiqueta{
+	margin-top: 5px;
+}
+.Usuario{
+	margin-top:0px;
+	
+}
+
+.Contraseña{
+	margin-top:25px;
+}
+
+.input{
+	background-color: #fff !important;
+	border-left: #fff;
+	border-right: #fff;
+	border-top: #fff;
+	border-bottom: 2px solid #901313;
+	margin: 5px;
+	font-size: 28px;
+	outline: none !important;
+	text-align: center;
+	width: 100%;
+}

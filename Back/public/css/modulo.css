@@ -1,0 +1,181 @@
+
+body{
+  padding-top:20px;
+  background-color: #1A417A;
+}
+@font-face {
+  font-family: fuentePro;
+  src: url(ARLRDBD_0.TTF);                                                                                                                                                                                                                                                                                                                                                                                                                  
+}
+
+.pricing-table .plan {
+  margin-left:0px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f3f3f3;
+  -moz-box-shadow: 0 0 6px 2px #b0b2ab;
+  -webkit-box-shadow: 0 0 6px 2px #b0b2ab;
+  box-shadow: 0 0 6px 2px #b0b2ab;
+}
+ 
+ .plan:hover {
+  background-color: #fff;
+  -moz-box-shadow: 0 0 12px 3px #b0b2ab;
+  -webkit-box-shadow: 0 0 12px 3px #b0b2ab;
+  box-shadow: 0 0 12px 3px #b0b2ab;
+}
+ 
+ .plan {
+  padding: 20px;
+  margin-left:0px;
+  color: #ffff;
+  background-color: #5e5f59;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+  
+.plan-name-bronze {
+  padding: 20px;
+  color: #fff;
+  background-color: #665D1E;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+ }
+  
+.plan-name-silver {
+  padding: 20px;
+  color: #fff;
+  background-color: #C0C0C0;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+ }
+  
+.plan-name-gold {
+  padding: 20px;
+  color: #fff;
+  background-color: #FFD700;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  } 
+  
+.pricing-table-bronze  {
+  padding: 20px;
+  color: #fff;
+  background-color: #f89406;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+  
+.pricing-table .plan .plan-name span {
+  font-size: 20px;
+}
+ 
+.pricing-table .plan ul {
+  list-style: none;
+  margin: 0;
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+ 
+.pricing-table .plan ul li.plan-feature {
+  padding: 15px 10px;
+  border-top: 1px solid #c5c8c0;
+  margin-right: 35px;
+}
+ 
+.pricing-three-column {
+  margin: 0 auto;
+  width: 80%;
+}
+ 
+.pricing-variable-height .plan {
+  float: none;
+  margin-left: 2%;
+  vertical-align: bottom;
+  display: inline-block;
+  zoom:1;
+  *display:inline;
+}
+ 
+.plan-mouseover .plan-name {
+  background-color: #4e9a06 !important;
+}
+ 
+.btn-plan-select {
+  padding: 8px 25px;
+  font-size: 18px;
+}
+
+.btn{
+  margin-left: 2%;
+  border: 2px solid white;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+  transition: 0.3s;
+  color: white !important;
+}
+.btn:hover{
+  border: 2px solid white;
+  box-shadow: 20px 20px 5px rgba(0,0,0,.5);
+  color: white !important;
+  font-weight: bold;
+}
+
+.hover-pc{
+  transition: 0.5s;
+  visibility: hidden;
+  display: table;
+  position: absolute;
+  opacity: 0;
+  border-radius: 20px;
+  border: solid 3px #820000;
+  color: #820000;
+  background-color: #fff;
+  font-weight: bold;
+  margin-top: 3px;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+}
+.img-pc{
+  width: 50px;
+}
+.fila-pro{
+  margin-top: 45px;
+}
+.espaciado{
+  margin-right: 0px;
+  margin-top: 30px;
+}
+
+.btn-espera{
+  background-color: #F3E500;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-advertencia1{
+  background-color: #711511;
+  color: #fff;
+  font-weight: bold;
+}
+.btn-advertencia2{
+  background-color: #8a943a;
+  color: #fff;
+  font-weight: bold;
+}
+h1{
+  font-family: fuentePro;
+  text-align: center;
+  color: white;
+}
+
+.zero-margin{
+  margin: 0 !important;
+  display: inline-flex;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prueba</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="StyleSheet" href="css/style.css">
+</head>
+<body>
+	<div class="msj">
+		<input id="input_pers" type="text">
+		<select id="input_pred" name="pais">
+			<option value="1"></option>
+			<option value="2">El laboratorio cerrara en 5 minutos</option>
+			<option value="3">Esta Prohibido Comer en Los Laboratorios</option>
+			<option value="4">Por favor guardar los Archivos</option>
+		</select>
+		<br>
+		<br>
+		<input id="pers" type="radio" name="control" value="1" checked onchange="radio_pers()">
+		<label for="pers">Personalizado</label>
+		<br>
+		<input id="pred" type="radio" name="control" value="2" onchange="radio_pred()">
+		<label for="pred">Predefinido</label>
+
+		<input type="button" value="enviar" onclick="enviar()">
+	</div>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>

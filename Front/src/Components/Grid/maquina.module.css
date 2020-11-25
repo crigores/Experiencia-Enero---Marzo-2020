@@ -1,0 +1,39 @@
+/*body{
+    background-image: url('./img/Fondo-Gestor.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    text-align: center; 
+}*/
+
+.component{
+    text-align: center;
+}
+
+.seccion {
+    background: #0d8a1d;
+    
+    position: relative;
+    top: -44px;
+    left: 7px;
+    width: 50px;
+    height: 28px;
+
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+
+    border: 0px none transparent;
+    border-radius: 7px;
+    cursor: pointer;
+}
+/* este estilo no parece ser utilizado--------------------*/
+.number {
+    text-decoration: none;
+    color: white;
+}
+
+.vacio {
+    display: block;
+    width: 64px;
+    height: 41px;
+}

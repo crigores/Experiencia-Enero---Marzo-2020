@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'robotoregular';
+  src: url('./Fuente/roboto-regular-webfont.woff2') format('woff2'),
+       url('./Fuente/roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'robotoblack';
+  src: url('./Fuente/roboto-black-webfont.woff2') format('woff2'),
+       url('./Fuente/roboto-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'robotoitalic';
+  src: url('./Fuente/roboto-italic-webfont.woff2') format('woff2'),
+       url('./Fuente/roboto-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+/*-----------------------------------------------------------------------*/
+/*START NavButton*/
+/*
+TODO TERMINAR EL HOVER DE LOS BOTONES BOPNITO 
+*/
+.fondo_gestor{
+  background-image: url('/Fondo-Gestor.jpg');
+  background-size: 100vw 100vh;
+}
+.fondo_modulo{
+  background-image: url('/Fondo-Modulo.jpg');
+  background-size: 100vw 100vh;
+}
+.fondo_coordinacion{
+  background-image: url('/Fondo-Coordinacion.png');
+  background-size: 100vw 100vh;
+}
+nav{
+  font-family: 'robotoregular', 'robotoblack', 'robotoitalic', 'sans-serif';
+}
+input::-webkit-inner-spin-button , 
+input::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.navButton:hover{
+  background-color: #161313 !important;
+}
+/*END  NavButton*/
+.navbar2 {
+  position: relative;
+  display: block;
+  text-align: center;
+  justify-content: space-between;
+  /*padding: 0.5rem 1rem;*/
+  background-color: #343a40;
+  height: 62px;
+}
+.ico_inicio {
+  background: url("./img/MAGI_Inicio.svg");
+  background-repeat: no-repeat;
+  width: 54px;
+  height: 54px;
+  margin: 5px;
+  float: left;
+}
+.ico_salida {
+  background: url("./img/log_out.svg");
+  background-repeat: no-repeat;
+  width: 54px;
+  height: 54px;
+  margin:10px;
+  float: right;
+}
+.botones{
+  float: left;
+}
+.botones > ul {
+  margin: 0;
+  
+}
+.botones > ul > li {
+  float: left;
+  padding: 20px;
+  height: 60;
+  list-style: none;
+}
+.botones > ul > li a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+#test li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+
+  text-decoration: none;
+}
+.dropbtn:hover{
+  text-decoration: none;
+  color: white;
+
+}
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown_content a {
+  background-color: #343a40;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown_content a:hover {background-color: #161313;}
+
+.dropdown:hover .dropdown_content {
+  display: block;
+}

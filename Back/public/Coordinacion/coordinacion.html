@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Coordinacion</title>
+    <link rel="shortcut icon" type="image/x-ico" href="/img/URBE.ico"/>
+    <link rel='stylesheet' type='text/css' href='/css/1F.css' />
+    <link rel='stylesheet' type='text/css' href='/css/bootstrap.min.css' />
+  <script src="/socket.io/socket.io.js"></script>
+  <script type="text/javascript" src="/Coordinacion/coordinacion.js"></script>
+  </head>
+  <body>
+    <div class="titulo-header">
+        <h1>COORDINACION</h1>
+    </div>
+        <div class="login-container">
+            <header>
+                <h2>Sistema de reservación</h2>
+            </header>
+            <div>
+              <h4>Modo</h4>
+              <select id="modo" class=" form-control">
+                  <option value="normal">Normal</option>
+                  <option value="inscripciones">Inscripciones</option>
+                  <option value="libre">Libre</option>
+              </select>
+              <h4 >Sin privilegios</h4>
+              <select id="sin" class="form-control">
+                  <option value="1">1 hora</option>
+                  <option value="1.5">1:30 hora</option>
+                  <option value="2">2 hora</option>
+              </select>
+              <h4>Con privilegios</h4>
+               <select id="con" class="form-control">
+                  <option value="1.5">1:30 hora</option>
+                  <option value="2">2 horas</option>
+                  <option value="2.5">2:30 hora</option>
+              </select>
+            </div>  
+            <div id="salones">
+            <div>
+                <h4 class="text-center">Rectorado</h4>
+                <div class="text-center">
+                  <button onclick="algo('PB')" class="btn">PB</button>
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center">Piso 1F</h4>
+                <div class="text-center">
+                  <button onclick="algo('F-3')" class="btn">F-3</button>
+                  <button onclick="algo('F-4')" class="btn">F-4</button>
+                  <button onclick="algo('F-5')" class="btn">F-5</button>
+                  <button onclick="algo('F-6')" class="btn">F-6</button>
+                  <button onclick="algo('F-7')" class="btn">F-7</button>
+                  <button onclick="algo('F-8')" class="btn">F-8</button>
+                  <button onclick="algo('F-9')" class="btn">F-9</button>
+                  <button onclick="algo('F-10')" class="btn">F-10</button>
+                  <button onclick="algo('F-11')" class="btn">F-11</button>
+                  <button onclick="algo('F-12')" class="btn">F-12</button>
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center">Piso 2F</h4>
+                <div class="text-center">
+                  <button onclick="algo('F-23')" class="btn">F-23</button>
+                  <button onclick="algo('F-24')" class="btn">F-24</button>
+                  <button onclick="algo('F-25')" class="btn">F-25</button>
+                  <button onclick="algo('F-26')" class="btn">F-26</button>
+                  <button onclick="algo('F-27')" class="btn">F-27</button>
+                  <button onclick="algo('F-28')" class="btn">F-28</button>
+                  <button onclick="algo('F-29')" class="btn">F-29</button>
+                  <button onclick="algo('F-30')" class="btn">F-30</button>
+                  <button onclick="algo('F-31')" class="btn">F-31</button>
+                  <button onclick="algo('F-32')" class="btn">F-32</button>
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center">Bloque G</h4>
+                <div class="text-center">
+                  <button onclick="algo('G-1')" class="btn">G-1</button>
+                  <button onclick="algo('G-9')" class="btn">G-9</button>
+                  <button onclick="algo('G-10')" class="btn">G-10</button>
+                  <button onclick="algo('G-11')" class="btn">G-11</button>
+                  <button onclick="algo('G-12')" class="btn">G-12</button>
+                  <button onclick="algo('G-13')" class="btn">G-13</button>
+                  <button onclick="algo('G-17')" class="btn">G-17</button>
+                </div>
+              </div>
+            </div>
+            <div class="login-form">
+                <button onclick="algo()"class="login-button" id="boton-cedula">INGRESAR</button>
+            </div>
+
+        </div>
+    <div id="logo">
+        <img class="img-logo" src="/img/somos urbe.png">
+    </div>
+  </body>
+</html>

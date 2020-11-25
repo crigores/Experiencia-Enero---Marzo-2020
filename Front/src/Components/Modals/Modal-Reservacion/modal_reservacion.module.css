@@ -1,0 +1,45 @@
+.contenedor{
+	background: rgba(0, 0, 0, 0.5);
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	position: absolute;
+	-webkit-user-select: none;
+	display: none;
+	text-align: center;
+	z-index: 2;
+}
+
+.modal{
+	position: relative;
+	top: 200px;
+	background: white;
+
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+
+	border: 2px solid black;
+	border-radius: 20px;
+}
+.modal > h1 {
+	margin-bottom: 50px;
+}
+.modal > select {
+	width: 74px;
+}
+.modal > button {
+	padding: 0 10px 5px 10px;
+	margin-top: 118px;;
+	padding: 5px 10px;
+}
+.modal > img{
+	position: relative;
+    top: -100px;
+    right: -228px;
+    width: 25px;
+}
+.statusReser{
+	display: none;
+}

@@ -1,0 +1,32 @@
+.btn0{
+    background-color: #449d44;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn1{
+    background-color: #c9302c;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn2{
+    background-color: #F3E500;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .btn3{
+    background-color: #711511;
+    color: #fff;
+    font-weight: bold;
+  }
+  .btn4{
+    background-color: #8a943a;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .container{
+    text-align: center;
+  }

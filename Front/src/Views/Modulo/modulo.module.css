@@ -1,0 +1,27 @@
+.botones {
+	position: absolute;
+    top: 80px;
+	right: 30%;
+	font-family: sans-serif;
+}
+.botones > div {
+	display: inline-block;
+    width: 30px;
+    margin-right: 10px;
+}
+.botones > div > p{
+	position: absolute;
+	background: white;
+	display: none;
+    top: 22px;
+    left: 20px;
+    padding: 4px;
+    border-radius: 5px;
+}
+.botones img {
+	width: 30px;
+	cursor: pointer;
+}
+.botones > div:hover > p{
+	display: block;
+}

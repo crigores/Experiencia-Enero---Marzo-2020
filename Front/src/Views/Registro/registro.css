@@ -1,0 +1,161 @@
+body{
+	margin:0px;
+}
+
+.General{
+	text-align: center;
+	display: flex;
+	margin: 0px;
+	/*width: 1280px;*/
+	height: /*895px;*/864px;
+	background-color: #0278ff;
+}
+
+.btn {
+	height: 50px;
+	width: 100px;
+	color: #fafafa;
+	margin-top: 35px;
+	margin-bottom: 3rem;
+  	background-color: #1b7cd6;
+  	font-size: 16px;
+	border-radius: 5px;
+	border-style: none;
+	text-align: center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 16px;
+
+}
+
+.btn:hover {
+  background-color: #0b4174;
+  color: white;
+}
+
+.header{
+	background-color: #0278ff;
+	color: #c9d7f1;
+	font-size: 24px;
+	text-align: start;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 2rem;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+.contenedorIzquierdo{
+	display: block;
+	margin: 20% auto;
+
+}
+
+/*Hexagon*/
+
+.frame{
+	width: 210px;
+	height: 0px;
+	margin: 0 auto;
+	position: relative;
+	cursor: pointer;
+  }
+  
+  .frame:hover .hex-inner{
+	height: 100px;
+	top: 90px !important;
+	border-radius: 4px;
+  }
+  
+  .frame:hover .label{
+	transform: scale(.90);
+	-webkit-transform: scale(.90);
+  }
+  
+  .hex-outer{
+	background: rgb(251, 255, 6);
+	width: 210px;
+	height: 120px;
+  }
+  
+  .hex-inner{
+	background: #373940;
+	width: 200px;
+	height: 115px;
+	position: relative;
+	left: 5px;
+	top: 82px !important;
+	border-radius: 0;
+	transition: all .4s;
+	-webkit-transition: all .4s;
+  }
+  
+  .h1{
+	position: absolute;
+	top: 80px;
+  }
+  
+  .h2{
+	position: absolute;
+	top: 80px;
+	transform: rotate(60deg);
+	-webkit-transform: rotate(60deg);
+  }
+  
+  .h3{
+	position: absolute;
+	top: 80px;
+	transform: rotate(-60deg);
+	-webkit-transform: rotate(-60deg);
+  }
+  
+  .label{
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	font-size: 148px;
+	margin-top:5%;
+	left:17%;
+	top: 36px;
+	  transition: all .4s;
+	-webkit-transition: all .4s;
+  }
+
+
+  .contenedorDerecho{
+	display: block;
+	/*margin-left:11.5%;*/
+	height: 100%;
+	width: 500px;
+	margin-top: 0px;
+	background-color: #fafafa;
+}
+
+.Datos{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	margin-left: 15%;
+	padding-top:50%;
+	margin-right: 15%;
+	border: 1px black none;
+}
+
+.etiqueta{
+	margin-top: 5px;
+}
+.Usuario{
+	margin-top:0px;
+	
+}
+
+.Contraseña{
+	margin-top:25px;
+}
+
+input{
+	border-left: #fafafa;
+	border-right: #fafafa;
+	border-top: #fafafa;
+	border-bottom: 2px solid #373940;
+	margin: 5px;
+	font-size: 28px;
+	outline: none !important;
+}
